@@ -1,0 +1,303 @@
+/*
+Theme Name: TerraStorm
+Theme URI: https://www.terrastormdev.com/products
+Author: Iulia Puiu
+Author URI: https://www.terrastormdev.com/About Us
+Description: Fully responsive WordPress business theme using Bootstrap 4
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: terrastorm
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, featured-images, footer-widgets, translation-ready
+
+*/
+
+
+/* === GLOBAL === */
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #334127;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+li {
+  list-style: none;
+}
+
+h2, a {
+  color: #334127;
+}
+
+a:hover {
+  color: #8db957;
+  text-decoration: none;
+}
+/* === NAVBAR === */
+/* .navbar {
+  padding: 16px;
+} */
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.light {
+  background-color: #fff;
+}
+
+.grey {
+  color: #000;
+}
+
+.light .nav-link {
+  color: #334127;
+}
+
+.light .nav-link:focus, .light .nav-link:hover, .light .nav-link.active {
+  color: #8db957;
+  font-weight: 700;
+}
+
+.navbar .nav-item {
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+/* === FEATURE SECTION === */
+
+.feature {
+  position: relative;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.feature-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-size: 0;
+}
+
+.feature-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.feature-container p {
+  color: #fff;
+  width: 100%;
+  padding: 6% 2%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 72px;
+  line-height: 72px;
+  display: inline-block;
+  background: rgba(60, 74, 49, 0.5);
+  border-radius: 10px;
+}
+
+#subtitle {
+  font-size: 24px;
+}
+
+.cta {
+  background-color: #b99e57;
+  font-weight: 700;
+}
+
+.cta-link {
+  color: #334127;
+  font-size: 28px;
+}
+
+.cta-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* === SECTION === */
+
+.section-title {
+  margin-top: 6%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-weight: 700
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.divider-image {
+  margin-top: 3%;
+  margin-bottom: 12%;
+}
+
+.divider {
+  text-align: center;
+}
+
+.service-image {
+  display: block;
+  margin: auto;
+}
+
+.sections {
+  text-align: center;
+}
+
+.sections h6 {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 4% 0;
+}
+
+.cta-section {
+  background-color: #8db957;
+  font-weight: 400;
+}
+
+.cta-section:hover {
+  background-color: #8db957;
+}
+
+.cta-section-link {
+  color: #000;
+  font-size: 18px;
+}
+
+.cta-section-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* === OFFERS === */
+
+.offers, .offer {
+  text-align: center;
+}
+
+.offers li {
+  list-style: none;
+  font-size: 24px;
+  text-align: left;
+  line-height: 2;
+}
+
+.offers i {
+  color: #8db957;
+  margin: 2%;
+}
+
+.offer ul {
+  border: 2px solid #887b39;
+  box-shadow: 5px 5px 10px 5px #887b39;
+  margin-bottom: 4%;
+}
+
+.offers h4 {
+  font-weight: 700;
+}
+
+/* === TECHNOLOGIES === */
+
+.tech-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 3%;
+}
+
+/* === FOOTER === */
+
+footer {
+  background-color: #8db957;
+}
+
+footer li, address {
+  line-height: 2em;
+}
+
+footer i {
+  margin-right: 3%;
+}
+
+footer li a {
+  color: #334127;
+}
+
+footer li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+#copy {
+  margin-top: 2%;
+  text-align: center;
+}
+
+footer address, ul, p {
+  padding-top: 2%;
+}
+
+footer address, ul {
+  padding-left: 6%;
+}
+
+
+/* === MOBILE === */
+@media screen and (max-width : 768px) {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 24px;
+  }
+
+  li a {
+    text-align: center;
+  }
+
+  .feature-container p {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #subtitle {
+    font-size: 14px;
+  }
+  .logo {
+    height: 80%;
+    width: 80%;
+  }
+
+  .brand {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul, address {
+    border-bottom: 1px solid #334127;
+  }
+
+}
